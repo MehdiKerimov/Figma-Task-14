@@ -59,7 +59,6 @@ input::placeholder {
   height: 48px;
   border-radius: 6px;
   background: #ef6d58;
-  border: none;
 }
 .container .box-container button a {
   text-decoration: none;
@@ -76,6 +75,7 @@ input::placeholder {
   min-height: 100vh;
 } */
 .container .text-box h1 {
+  width: 86px;
   color: var(--Text_Light_Accent, #ef6d58);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -98,6 +98,7 @@ input::placeholder {
   letter-spacing: -1px;
 }
 .container .text-box p {
+  margin-top: 28px;
   width: 470px;
   color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
   font-feature-settings: "clig" off, "liga" off;
@@ -117,23 +118,9 @@ input::placeholder {
   line-height: 32px;
 }
 .container .circle {
-  width: 48px;
-  height: 48px;
-  background-color: #ef6d58;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-ul li{
-    margin-top: 28px;
-
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-
+.container {
 }
-ul li p{
-  margin-left: 20px;
-}
-

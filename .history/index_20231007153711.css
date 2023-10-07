@@ -59,7 +59,7 @@ input::placeholder {
   height: 48px;
   border-radius: 6px;
   background: #ef6d58;
-  border: none;
+  border: n;
 }
 .container .box-container button a {
   text-decoration: none;
